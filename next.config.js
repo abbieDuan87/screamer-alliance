@@ -1,6 +1,6 @@
 module.exports = {
 	// ...existing config...
 	images: {
-		domains: ["placehold.co"],
+		domains: ["placehold.co", "res.cloudinary.com"],
 	},
 };
