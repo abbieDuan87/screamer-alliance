@@ -1,11 +1,12 @@
 import Image from "next/image";
 import FadeImageSection from "@/components/homepage/FadeImageSection";
+import TeamsSection from "@/components/homepage/TeamSection";
 
 
 export default function HomePage() {
 	return (
 		<>
-			{/* --- Hero Section --- */}
+			{/* --- First Section --- */}
 			<section
 				className="relative w-full min-h-[600px] bg-yellow-50 flex flex-col items-center justify-center overflow-hidden">
 				{/* Top Left - Hug */}
@@ -80,6 +81,7 @@ export default function HomePage() {
 			</section>
 
 			<FadeImageSection/>
+			<TeamsSection/>
 		</>
 	);
 }
