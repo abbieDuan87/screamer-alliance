@@ -16,13 +16,13 @@ export default function TeamCard({
                                      onButtonClick,
                                  }: TeamCardProps) {
     return (
-        <div className="w-[464px] bg-white rounded-xl outline outline-1 outline-transparent flex flex-col">
+        <div className="w-[434px] bg-white rounded-xl outline outline-1 outline-transparent flex flex-col">
             <img
-                className="w-[464px] h-72 rounded-t-xl object-cover"
+                className="w-[434px] h-68 rounded-t-xl object-cover"
                 src={image}
                 alt={alt}
             />
-            <div className="w-full h-48 px-4 pt-6 pb-4 bg-purple-400 flex flex-col gap-4">
+            <div className="w-full h-48 px-4 pt-6 pb-4 bg-purple-400/90 flex flex-col gap-4">
                 <div>
                     <div className="text-purple-950 text-4xl font-bold leading-9 font-h2">
                         {title}
@@ -32,7 +32,7 @@ export default function TeamCard({
                     {description}
                 </div>
             </div>
-            <div className="w-full h-20 p-4 rounded-b-xl bg-purple-400 flex items-center">
+            <div className="w-full h-20 p-4 rounded-b-xl bg-purple-400/90 flex items-center">
                 <button
                     className="flex items-center gap-2 group"
                     onClick={onButtonClick}

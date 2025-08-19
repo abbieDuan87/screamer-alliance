@@ -1,6 +1,7 @@
 import Image from "next/image";
 import FadeImageSection from "@/components/homepage/FadeImageSection";
 import TeamsSection from "@/components/homepage/TeamSection";
+import MembersSection from "@/components/homepage/MembersSection";
 
 
 export default function HomePage() {
@@ -82,6 +83,7 @@ export default function HomePage() {
 
 			<FadeImageSection/>
 			<TeamsSection/>
+			<MembersSection/>
 		</>
 	);
 }
