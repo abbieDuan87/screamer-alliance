@@ -96,9 +96,32 @@ export default function ValuesSection() {
 	return (
 		<section className="w-full py-20 flex flex-col items-center gap-12">
 			<div className="w-full flex flex-col items-center gap-10">
-				<div className="w-full flex flex-col items-center">
-					<div className="w-full text-center text-purple-950 text-5xl font-bold uppercase font-sans">
+				<div className="w-full flex items-center justify-center gap-8">
+					{/* Left Image */}
+					<div className="relative rotate-[-10deg] mr-2">
+						<Image
+							src="/images/homepage/grass2.PNG"
+							alt="Football grass"
+							width={60}
+							height={60}
+							className="object-cover rounded-lg"
+						/>
+					</div>
+
+					{/* Title */}
+					<div className="text-center text-purple-950 text-5xl font-bold uppercase font-sans">
 						Our Values
+					</div>
+
+					{/* Right Image */}
+					<div className="relative">
+						<Image
+							src="/images/homepage/whistle.PNG"
+							alt="Football whistle"
+							width={110}
+							height={110}
+							className="object-cover rounded-lg"
+						/>
 					</div>
 				</div>
 
